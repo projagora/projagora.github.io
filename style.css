@@ -1,0 +1,228 @@
+/* BEM-VINDO À STYLESHEET DO PROJETO ÁGORA!
+ * Este documento será dividido por páginas do site,
+ * de modo a facilitar a busca pelos estilos destas.
+
+/* GERAL */
+
+:root {
+    background: linear-gradient(120deg, rgb(108, 178, 8) 0%, rgb(255, 204, 17) 75%);
+    background-size: 100%;
+    background-position: center;
+}
+
+body {
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+}
+
+main {
+    background-color: #000c81;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #fff;
+    color: #000c81;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#navbar {
+    display: inline-block;
+    font-size: 133%;
+}
+
+#navbar ul {
+    display: inline-block;
+}
+
+#navbar li {
+    margin: 0 auto;
+    list-style: none;
+    display: inherit;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer {
+    background-color: #fff;
+    color: #000c81;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer p {
+    padding: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+.full-page {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+hr {
+    background-color: #fff;
+    height: 3px;
+    width: 80%;
+}
+
+header a, footer a {
+    color: #000c81;
+}
+
+a {
+    color: #ffcc11;
+}
+
+.full-page {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* INDEX */
+
+#index {
+    text-align: center;
+    margin: 1rem;
+}
+
+#index-text {
+    vertical-align: middle;
+}
+/* BLOG */
+
+.blog-index {
+    list-style-type: none;
+    font-size: 125%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* SOBRE */
+
+#sobre {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sobre {
+    flex: 3;
+    text-align: justify;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#sobre-ettore {
+    order: 1;
+    text-align: justify;
+    text-justify: end;
+}
+
+#sobre-pedro {
+    order: 2;
+    text-align: justify;
+    text-justify: end;
+}
+
+#sobre-anaclara {
+    order: 3;
+    text-align: justify;
+    text-justify: end;
+}
+
+#sobre-anaclara {
+    order: 4;
+    text-align: justify;
+    text-justify: end;
+}
+
+.sobre-foto {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+#div-contato{
+    text-align: center;
+}
+
+#image-contato {
+    border-radius: 20px;
+    width: 33%;
+    max-width: min-content;
+}
+
+/* CONTATO */
+
+.form-texto {
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    width: 45%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    text-align: justify;
+    font-family: "Ledger";
+    font-size: 133%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-mensagem {
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    text-align: justify;
+    font-family: "Ledger";
+    font-size: 133%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-enviar {
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-family: "Ledger";
+    font-size: 133%;
+}

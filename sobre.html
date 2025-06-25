@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Projeto Ágora</title>
+        <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet" />
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+        <script>
+            $(function () {
+                $("#header").load("pieces/header.html");
+                $("#footer").load("pieces/footer.html");
+            });
+        </script>
+    </head>
+    <body>
+        <header><div id="header"></div></header>
+        <main>
+            <br />
+            <h1>Sobre Nós</h1>
+            <p class="full-page">
+                A nossa equipe consiste de três pessoas com ideologias políticas bastante diferentes, mas unidas por um
+                objetivo em comum: promover a educação política no Brasil.
+            </p>
+            <hr />
+            <br />
+            <div id="sobre">
+                <div class="sobre" id="sobre-ettore">
+                    <img src="assets/pictures/ettore.jpeg" class="sobre-foto" />
+                    <h3>Éttore</h3>
+                    <p>
+                        Participo do Projeto Ágora colaborando com a idealização e na elaboração de pesquisas.
+                        Particularmente, gosto muito de economia, área que frequentemente conversa com a política, e
+                        estou buscando aprender mais o tema em seus diferentes âmbitos para contribuir com o projeto.
+                    </p>
+                </div>
+                <div class="sobre" id="sobre-pedro">
+                    <img src="assets/pictures/pedro.jpeg" class="sobre-foto" />
+                    <h3>Pedro</h3>
+                    <p>
+                        Eu sou a pessoa que fez a programação deste site. Colaboro com o Projeto Ágora garantindo a
+                        nossa presença digital e na idealização. Pessoalmente, gosto de ler, de computação e,
+                        principalmente, de política, seja ela nacional ou internacional.
+                    </p>
+                </div>
+                <div class="sobre" id="sobre-anaclara">
+                    <img src="assets/pictures/anaclara.jpeg" class="sobre-foto" />
+
+                    <h3>Ana Clara</h3>
+                    <p>
+                        Eu sou a designer do projeto, e crio a maior parte da estética e harmonia do projeto. Sou uma
+                        pessoa bastante produtiva, extrovertida e busco sempre estar melhorando pela educação política
+                        de nós jovens!
+                    </p>
+                </div>
+                <div class="sobre" id="sobre-mariaeduarda">
+                    <img src="assets/pictures/mariaeduarda.png" class="sobre-foto" />
+
+                    <h3>Maria Eduarda</h3>
+                    <p>
+                        Participo do design junto com a Ana Clara, organizo e analiso o potencial dos nossos eventos,
+                        buscando sempre entender o que o nosso público realmente vai absorver e valorizar. Enquanto
+                        membro do grupo, sei que nosso projeto nos permite compreender a realidade.
+                    </p>
+                </div>
+            </div>
+            <hr />
+            <br />
+            <div id="div-contato">
+                <a href="mailto:agoraedupol@gmail.com?subject=Contato">
+                    <img src="assets/pictures/contato.png" id="image-contato" />
+                </a>
+            </div>
+            <br />
+        </main>
+        <footer><div id="footer"></div></footer>
+    </body>
+</html>

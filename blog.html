@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Projeto Ágora</title>
+        <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet" />
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+        <script>
+            $(function () {
+                $("#header").load("pieces/header.html");
+                $("#footer").load("pieces/footer.html");
+            });
+        </script>
+    </head>
+    <body>
+        <header><div id="header"></div></header>
+        <main>
+            <br />
+            <h1>Blog</h1>
+            <p class="full-page">
+                Este é o nosso blog, onde divulgaremos diversos artigos sobre os mais variados tópicos da educação
+                política.
+            </p>
+            <hr />
+            <ul class="blog-index">
+                <li><a href="posts/2025-06-23-bem-vindo(a)">Bem-Vindo(a)!</a></li>
+            </ul>
+            <hr />
+            <br />
+        </main>
+        <footer><div id="footer"></div></footer>
+    </body>
+</html>
