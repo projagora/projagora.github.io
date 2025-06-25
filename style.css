@@ -5,7 +5,7 @@
 /* GERAL */
 
 :root {
-    background: linear-gradient(120deg, rgb(108, 178, 8) 0%, rgb(255, 204, 17) 75%);
+    background: linear-gradient(120deg, #6cb208 0%, #ffcc11 75%);
     background-size: 100%;
     background-position: center;
 }
@@ -84,7 +84,8 @@ hr {
     width: 80%;
 }
 
-header a, footer a {
+header a,
+footer a {
     color: #000c81;
 }
 
@@ -101,6 +102,22 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.no-bullets {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 620px) {
+    /* Para celulares: */
+    header,
+    main,
+    footer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 /* INDEX */
@@ -169,7 +186,7 @@ a {
     margin: auto;
 }
 
-#div-contato{
+#div-contato {
     text-align: center;
 }
 
