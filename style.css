@@ -1,6 +1,7 @@
 /* BEM-VINDO À STYLESHEET DO PROJETO ÁGORA!
  * Este documento será dividido por páginas do site,
  * de modo a facilitar a busca pelos estilos destas.
+*/
 
 /* GERAL */
 
@@ -23,6 +24,8 @@ main {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 20px;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
 }
 
 header {
@@ -32,6 +35,9 @@ header {
     border-radius: 20px;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
 }
 
 #navbar {
@@ -58,6 +64,7 @@ footer {
     border-radius: 20px;
     margin-left: 20%;
     margin-right: 20%;
+    box-sizing: border-box;
 }
 
 footer p {
@@ -82,6 +89,8 @@ hr {
     background-color: #fff;
     height: 3px;
     width: 80%;
+    border: none;
+    margin: 2rem auto;
 }
 
 header a,
@@ -110,14 +119,50 @@ a {
     padding: 0;
 }
 
-@media only screen and (max-width: 620px) {
-    /* Para celulares: */
+@media only screen and (max-width: 1024px) {
     header,
     main,
     footer {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .full-page {
         margin-left: 5%;
         margin-right: 5%;
     }
+}
+
+@media only screen and (max-width: 800px) {
+    header,
+    main,
+    footer {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    header,
+    main,
+    footer {
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .full-page {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    main {
+        padding: 0.5rem 0.25rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* INDEX */
@@ -130,6 +175,7 @@ a {
 #index-text {
     vertical-align: middle;
 }
+
 /* BLOG */
 
 .blog-index {
@@ -145,37 +191,45 @@ a {
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .sobre {
-    flex: 3;
+    flex: 1 1 250px;
+    min-width: 220px;
+    max-width: 320px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    padding: 1rem 1.25rem;
     text-align: justify;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sobre-ettore,
+#sobre-pedro,
+#sobre-anaclara,
+#sobre-mariaeduarda {
+    text-align: justify;
+    text-justify: end;
 }
 
 #sobre-ettore {
     order: 1;
-    text-align: justify;
-    text-justify: end;
 }
-
 #sobre-pedro {
     order: 2;
-    text-align: justify;
-    text-justify: end;
 }
-
 #sobre-anaclara {
     order: 3;
-    text-align: justify;
-    text-justify: end;
 }
-
-#sobre-anaclara {
+#sobre-mariaeduarda {
     order: 4;
-    text-align: justify;
-    text-justify: end;
 }
 
 .sobre-foto {
@@ -183,17 +237,66 @@ a {
     width: 100px;
     border-radius: 100%;
     display: block;
-    margin: auto;
+    margin: 0 auto 1rem auto;
+    object-fit: cover;
 }
 
 #div-contato {
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 #image-contato {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
-    width: 33%;
-    max-width: min-content;
+    width: 400px;
+    max-width: 400px;
+    height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    #sobre {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    .sobre {
+        flex: 1 1 220px;
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #sobre {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        gap: 1rem;
+    }
+    .sobre {
+        min-width: 0;
+        width: 98%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem 0.5rem;
+    }
+    .sobre-foto {
+        height: 80px;
+        width: 80px;
+    }
+    #image-contato {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90vw;
+        max-width: 280px;
+    }
 }
 
 /* CONTATO */
@@ -202,7 +305,8 @@ a {
     background-color: #fff;
     display: block;
     margin: auto;
-    width: 45%;
+    width: 90%;
+    max-width: 400px;
     height: 40px;
     border: none;
     border-radius: 20px;
@@ -219,7 +323,8 @@ a {
     background-color: #fff;
     display: block;
     margin: auto;
-    width: 60%;
+    width: 95%;
+    max-width: 600px;
     height: 80px;
     border: none;
     border-radius: 20px;
@@ -236,7 +341,8 @@ a {
     background-color: #fff;
     display: block;
     margin: auto;
-    width: 20%;
+    width: 50%;
+    max-width: 200px;
     height: 40px;
     border: none;
     border-radius: 20px;
