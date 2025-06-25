@@ -31,7 +31,7 @@ let authorLink = ""; // Enter your website, social media, etc. Some way for peop
   use a date it must still follow that format.*/
 
 let postsArray = [
-[ "posts/2025-06-23-bem-vindo(a).html",],
+[ "/posts/2025-06-23-bem-vindo(a).html",],
 ];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
