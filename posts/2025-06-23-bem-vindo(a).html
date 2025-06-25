@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bem-vindo(a) | Projeto Ágora</title>
+    <meta charset="utf-8" />
+    <link href="../style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+        $("#header").load("../pieces/header.html");
+        $("#footer").load("../pieces/footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <header><div id="header"></div></header>
+    <main>
+      <br />
+      <h1 id="bem-vindo(a)">Bem Vindo(a) ao Blog</h1>
+      <h4 id="2025-06-23">23 de junho de 2025</h4>
+      <p class="full-page">
+        Seja bem-vindo(a) ao Blog do Projeto Ágora! Aqui discutiremos conceitos e eventos importantes da política
+        nacional e mundial.
+      </p>
+      <br />
+    </main>
+    <footer><div id="footer"></div></footer>
+    <script src="../script.js"></script>
+  </body>
+</html>
