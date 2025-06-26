@@ -85,6 +85,11 @@ h6 {
     margin-right: 15%;
 }
 
+.full-page-list {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 hr {
     background-color: #fff;
     height: 3px;
@@ -100,11 +105,6 @@ footer a {
 
 a {
     color: #ffcc11;
-}
-
-.full-page {
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .center {
@@ -130,6 +130,10 @@ a {
         margin-left: 5%;
         margin-right: 5%;
     }
+    .full-page-list {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -151,6 +155,11 @@ a {
         padding-right: 0.5rem;
     }
     .full-page {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .full-page-list {
         margin-left: 2%;
         margin-right: 2%;
     }
