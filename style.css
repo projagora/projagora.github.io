@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    background-color: #000c81;
+    background-color: #000750;
     color: #fff;
     border-radius: 20px;
     margin-top: 20px;
@@ -30,7 +30,7 @@ main {
 
 header {
     background-color: #fff;
-    color: #000c81;
+    color: #000750;
     text-align: center;
     border-radius: 20px;
     margin-left: 20%;
@@ -59,7 +59,7 @@ header {
 
 footer {
     background-color: #fff;
-    color: #000c81;
+    color: #000750;
     text-align: center;
     border-radius: 20px;
     margin-left: 20%;
@@ -100,7 +100,7 @@ hr {
 
 header a,
 footer a {
-    color: #000c81;
+    color: #000750;
 }
 
 a {
