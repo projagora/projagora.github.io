@@ -14,7 +14,7 @@ body {
 }
 
 main {
-    background-image: url(assets/backgrounds/topography-white.png);
+    background-image: url("assets/backgrounds/topography-white.png");
     background-size: 100%;
     background-position: center;
     color: #000750;
