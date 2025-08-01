@@ -33,6 +33,7 @@ let authorLink = ""; // Enter your website, social media, etc. Some way for peop
 let postsArray = [
 [ "/posts/2025-06-23-bem-vindo(a).html",],
 [ "/posts/2025-07-01-brics.html",],
+[ "/posts/2025-08-01-democracia.html",],
 ];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
