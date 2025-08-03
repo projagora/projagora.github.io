@@ -34,6 +34,7 @@ let postsArray = [
 [ "/posts/2025-06-23-bem-vindo(a).html",],
 [ "/posts/2025-07-01-brics.html",],
 [ "/posts/2025-08-01-democracia.html",],
+[ "/posts/2025-08-03-republica-federativa-do-brasil.html",]
 ];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
